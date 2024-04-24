@@ -20,7 +20,7 @@ export const App = () => {
         <Route path="/" element={<Header />}>
           <Route index element={<Home />} />
           <Route path="country" element={<SearchCountry />} />
-          <Route path="search/:countryId" element={<Country />} />
+          <Route path="country/:countryId" element={<Country />} />
         </Route>
       </Routes>
     </>
